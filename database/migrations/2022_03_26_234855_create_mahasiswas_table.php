@@ -18,10 +18,10 @@ return new class extends Migration
             $table->String('nim', 10)->index();
             $table->String('nama', 25)->index();
             $table->String('kelas',5);
-            // $table->String('jurusan',35);
-            // $table->String('email',255);
-            // $table->String('alamat',255);
-            // $table->date('tanggal_lahir',255);
+            $table->String('jurusan',35);
+            $table->String('email',255);
+            $table->String('alamat',255);
+            $table->date('tanggal_lahir',255);
             $table->timestamps();
         });
     }

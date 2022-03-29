@@ -37,7 +37,7 @@
                 <label for="Jurusan">Jurusan</label>
                 <input type="text" name="jurusan" class="form-control" id="jurusan" aria-describedby="jurusan" >
             </div>
-            {{-- <div class="form-group">
+            <div class="form-group">
                 <label for="Email">Email</label>
                 <input type="email" name="email" class="form-control" id="email" aria-describedby="email" >
             </div>
@@ -48,7 +48,7 @@
             <div class="form-group">
                 <label for="Tanggal_Lahir">Tanggal Lahir</label>
                 <input type="date" name="tanggal_lahir" class="form-control" id="tanggal_lahir" aria-describedby="tanggal_lahir" >
-            </div> --}}
+            </div>
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
         </div>
